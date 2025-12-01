@@ -1,12 +1,12 @@
 [
+
   {
     "id": 1,
     "name": "UMD Soccer Club",
     "category": "Sports",
     "contact": "soccer@umd.edu",
     "desc": "Casual and competitive soccer for all skill levels.",
-    "tags": ["sports", "athletics", "team"],
-    "image": "soccer.jpg"
+    "tags": ["sports", "athletics", "team"]
   },
   {
     "id": 2,
@@ -14,6 +14,14 @@
     "category": "Tech",
     "contact": "hack@umd.edu",
     "desc": "Hackathons, workshops, and weekly coding meetups.",
-    "tags": ["tech", "coding", "hackathons"],
-    "image": "hackumd.jpg"
-  }]
+    "tags": ["tech", "coding", "hackathons"]
+  },
+  {
+    "id": 3,
+    "name": "UMD Archery Club",
+    "category": "Sports",
+    "contact": "archers.umd@gmail.com",
+    "desc": "The Archery Club is a place for students and faculty to discover the sport of archery, meet new friends, train for competitions, and learn from each other.",
+    "tags": ["sports", "athletics", "team"]
+  }
+]
