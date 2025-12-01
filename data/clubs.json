@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "UMD Soccer Club",
+    "category": "Sports",
+    "contact": "soccer@umd.edu",
+    "desc": "Casual and competitive soccer for all skill levels.",
+    "tags": ["sports", "athletics", "team"],
+    "image": "soccer.jpg"
+  },
+  {
+    "id": 2,
+    "name": "HackUMD",
+    "category": "Tech",
+    "contact": "hack@umd.edu",
+    "desc": "Hackathons, workshops, and weekly coding meetups.",
+    "tags": ["tech", "coding", "hackathons"],
+    "image": "hackumd.jpg"
+  }]
