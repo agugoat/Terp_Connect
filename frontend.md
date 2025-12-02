@@ -60,7 +60,7 @@ Bootstrap gives you pre-made layouts so you don't need to hand-write CSS.
 You only need:
 
 - Grid system (row, col)
-- Cards
+- Cars
 - Buttons
 - Navbars
 - Spacing utilities (`mb-3`, `mt-4`, `p-3`)
