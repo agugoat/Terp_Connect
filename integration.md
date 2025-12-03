@@ -258,5 +258,4 @@ If you understand how:
 - JSON feeds data, and
 - GitHub merges code…
 
-Then the entire team will be able to finish on time.
 
