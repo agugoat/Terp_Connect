@@ -11,10 +11,10 @@ def home():
 def clubs():
     # clubTables = ("Name", "Category", "Contact", "Description", "Tags")
 
-    # with open('data/clubs.json') as f:
-    #     clubData = json.load(f)
+    with open('data/clubs.json') as f:
+        clubData = json.load(f)
 
-    return render_template('clubs.html')
+    return render_template('clubs.html', clubs = clubData)
 
 @app.route('/survey')
 def survey():
