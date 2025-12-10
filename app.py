@@ -15,6 +15,7 @@ def clubs():
         clubData = json.load(f)
 
     return render_template('clubs.html', clubs = clubData)
+    #mapping between py variable clubsData and jinja variable clubs
 
 @app.route('/survey')
 def survey():
