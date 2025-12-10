@@ -1,16 +1,15 @@
 {% extends "base.html" %}
 
-<html>
-    <h1>
-        Clubs
-    </h1>
-    <body>
-        This is a place for UMD clubs
-    </body>
-    <ul>
-    {% for club in clubs %}
+{% block title %}Clubs{% endblock %}
+
+{% block content %}
+<h1 style="color:red; text-align:center;">Clubs</h1>
+<p style ="font-style:italic; text-align:center;">This is a place for UMD clubs</p>
+
+<ul>
+    {% for club in clubs %}<!-- clubs jinja variable -->
         <li>
-            <h2>{{ club.name }}</h2>
+            <h2 style="color:red;">{{ club.name }}</h2>
             <p><strong>Category:</strong> {{ club.category }}</p>
             <p><strong>Contact:</strong> {{ club.contact }}</p>
             <p><strong>Description:</strong> {{ club.desc }}</p>
@@ -18,4 +17,4 @@
         </li>
     {% endfor %}
 </ul>
-</html>
+{% endblock %}
